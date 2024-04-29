@@ -1,0 +1,108 @@
+{
+    "source": "infoflow.js",
+    "start": 1707730315688,
+    "end": 1707730321996,
+    "firstHit": "-1",
+    "undefinedMap": {},
+    "done": [
+        {
+            "id": 0,
+            "input": {
+                "_bound": 0,
+                "LO": 0,
+                "HI1": 10,
+                "HI2": 10
+            },
+            "stringifiedPC": "(not (> LO 4.0)),(not (= HI1 777.0)),(> HI1 0.0),(not (> LO 4.0)),(not (= HI2 777.0)),(> HI2 0.0),(not (= (* HI1 7.0) 777.0)),(not (= (* HI2 111.0) 777.0))",
+            "foundGagdet": false,
+            "alternatives": [
+                {
+                    "input": {
+                        "LO": 5,
+                        "HI1": 0,
+                        "HI2": 0,
+                        "_bound": 1
+                    },
+                    "pc": "",
+                    "forkIid": 16,
+                    "forinLoad": false,
+                    "forinKeys": []
+                },
+                {
+                    "input": {
+                        "LO": 0,
+                        "HI1": 777,
+                        "HI2": 0,
+                        "_bound": 2
+                    },
+                    "pc": "",
+                    "forkIid": 8,
+                    "forinLoad": false,
+                    "forinKeys": []
+                },
+                {
+                    "input": {
+                        "LO": 0,
+                        "HI1": 0,
+                        "HI2": 0,
+                        "_bound": 3
+                    },
+                    "pc": "",
+                    "forkIid": 24,
+                    "forinLoad": false,
+                    "forinKeys": []
+                },
+                {
+                    "input": {
+                        "LO": 0,
+                        "HI1": 778,
+                        "HI2": 777,
+                        "_bound": 5
+                    },
+                    "pc": "",
+                    "forkIid": 8,
+                    "forinLoad": false,
+                    "forinKeys": []
+                },
+                {
+                    "input": {
+                        "LO": 0,
+                        "HI1": 776,
+                        "HI2": 0,
+                        "_bound": 6
+                    },
+                    "pc": "",
+                    "forkIid": 24,
+                    "forinLoad": false,
+                    "forinKeys": []
+                },
+                {
+                    "input": {
+                        "LO": 0,
+                        "HI1": 111,
+                        "HI2": 0.5,
+                        "_bound": 7
+                    },
+                    "pc": "",
+                    "forkIid": 8,
+                    "forinLoad": false,
+                    "forinKeys": []
+                },
+                {
+                    "input": {
+                        "LO": 0,
+                        "HI1": 110,
+                        "HI2": 7,
+                        "_bound": 8
+                    },
+                    "pc": "",
+                    "forkIid": 16,
+                    "forinLoad": false,
+                    "forinKeys": []
+                }
+            ],
+            "helperPool": [],
+            "time": 6302
+        }
+    ]
+}

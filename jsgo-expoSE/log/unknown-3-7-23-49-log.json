@@ -1,0 +1,66 @@
+{
+    "source": "infoflow.js",
+    "start": 1709826557198,
+    "end": 1709826558153,
+    "firstHit": "-1",
+    "undefinedMap": {
+        "{\"_bound\":0,\"LO\":0,\"HI1\":10,\"HI2\":10}": [
+            "LO",
+            "HI1",
+            "HI2"
+        ]
+    },
+    "done": [
+        {
+            "id": 0,
+            "input": {
+                "_bound": 0,
+                "LO": 0,
+                "HI1": 10,
+                "HI2": 10
+            },
+            "stringifiedPC": "(not (> LO 4.0)),(not (= HI1 777.0)),(not (= (* LO 42.0) 126.0))",
+            "foundGagdet": false,
+            "alternatives": [
+                {
+                    "input": {
+                        "LO": 5,
+                        "HI1": 0,
+                        "HI2": 0,
+                        "_bound": 1
+                    },
+                    "pc": "",
+                    "forkIid": 16,
+                    "forinLoad": false,
+                    "forinKeys": []
+                },
+                {
+                    "input": {
+                        "LO": 0,
+                        "HI1": 777,
+                        "HI2": 0,
+                        "_bound": 2
+                    },
+                    "pc": "",
+                    "forkIid": 8,
+                    "forinLoad": false,
+                    "forinKeys": []
+                },
+                {
+                    "input": {
+                        "LO": 3,
+                        "HI1": 2,
+                        "HI2": 0,
+                        "_bound": 3
+                    },
+                    "pc": "",
+                    "forkIid": 24,
+                    "forinLoad": false,
+                    "forinKeys": []
+                }
+            ],
+            "helperPool": [],
+            "time": 943
+        }
+    ]
+}
