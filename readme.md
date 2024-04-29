@@ -1,9 +1,20 @@
-The project contains three main parts: 1) profile, 2) replay, and 3) mutate. For detailed usage instructions, please refer to the documents in the src/profile, src/replay, and src/mutate directories, respectively.
+## Usages:
+The project contains three main parts:
+1. **Profile**, see [src/profile](https://github.com/JSGos/JSGo/blob/main/src/profile/readme.md)
+2. **Replay**, see [src/replay](https://github.com/JSGos/JSGo/blob/main/src/replay/readme.md)
+3. **Mutate**, see [src/mutate](https://github.com/JSGos/JSGo/blob/main/src/mutate/readme.md)
 
-jsgo-restler-fuzzer and jsgo-expoSE are our modified prototype of restler and expoSE. You need to compile jsgo-restler-fuzzer as we cannot upload its binary to this repository due to the large file size.  
+Additionally, we provide an example usage for each phase. The example demonstrates triggering a prototype pollution vulnerability. Users can test other applications following the provided documents and examples.
 
-We list our study results in Section 2 in study.xlsx.
+## Modified Prototypes:
+We have modified prototypes:
+- **jsgo-restler-fuzzer**
+- **jsgo-expoSE**
 
-Additionally, we provide an example usage for each phase. The example shows triggering a prototype pollution vulnerability. Users can test other applications following the provided documents and examples.
+You need to compile **jsgo-restler-fuzzer** as its binary isn't uploaded to the repository due to its large file size.
 
-We will prepare and provide a Docker image for the usage of JSGo upon the paper acceptance.
+## Study Results:
+We list our study results in Section 2 of `study.xlsx`.
+
+## Docker Image:
+We will prepare and provide a Docker image for the usage of JSGo upon paper acceptance.
