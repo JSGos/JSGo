@@ -6,7 +6,6 @@ The project contains three main parts:
 
 Additionally, we provide an example usage for each phase. The example demonstrates triggering a prototype pollution vulnerability. Users can test other applications following the provided documents and examples.
 
-## Modified Prototypes:
 We have modified prototypes:
 - **jsgo-restler-fuzzer**
 - **jsgo-expoSE**
