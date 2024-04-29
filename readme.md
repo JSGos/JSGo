@@ -1,4 +1,4 @@
-The project contains three main parts: profile, replay, and mutate. For detailed usage instructions, please refer to the documents in the src/profile, src/replay, and src/mutate directories, respectively.
+The project contains three main parts: 1:) profile, 2:) replay, and 3:) mutate. For detailed usage instructions, please refer to the documents in the src/profile, src/replay, and src/mutate directories, respectively.
 
 jsgo-restler-fuzzer and jsgo-expoSE are our modified prototype of restler and expoSE. You need to compile jsgo-restler-fuzzer as we cannot upload its binary to this repository due to the large file size.  
 
