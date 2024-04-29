@@ -34,7 +34,7 @@ Users must fill in the `config.json` file with the following information:
    - Description: Delimited by commas, with four expected elements:
      - One for running the application.
      - One for stopping the application.
-     - One for replaying the RESTful API. Please use one generated in Replay/targetAlignTraces phase.
+     - One for replaying the RESTful API. Please use one generated in replay/targetAlignTraces.
      - One for executing the reference test suites (obtained in **profile** phase).
    - Format: Comma-separated list of command paths.
    - Example: `"command_path": "/path/to/run_app,/path/to/stop_app,/path/to/replay_API,/path/to/execute_tests"`
