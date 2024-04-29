@@ -4,7 +4,7 @@ The project contains three main parts:
 2. **Replay**, see [src/replay](https://github.com/JSGos/JSGo/blob/main/src/replay/readme.md)
 3. **Mutate**, see [src/mutate](https://github.com/JSGos/JSGo/blob/main/src/mutate/readme.md)
 
-Additionally, we provide an example usage for each phase. The example demonstrates triggering a prototype pollution vulnerability. Users can test other applications following the provided documents and examples.
+Additionally, we provide an example usage in each phase. The example demonstrates triggering a prototype pollution vulnerability. Users can test other applications following the provided documents and examples.
 
 We have modified prototypes:
 - **jsgo-restler-fuzzer**
